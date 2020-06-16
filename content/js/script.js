@@ -1,7 +1,6 @@
-document.getElementById('')
+let getCost = document.getElementById('goods-button');
 
-
-function toggle(el){
-    el.style.display = (el.style.display == 'none') ? 'block' : 'none'; 
+alrt = () => {
+    getCost.onclick.alert("Сайт в разработке");
     console.log("it works!")
 }
