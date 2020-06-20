@@ -27,7 +27,6 @@ body{
 header{
     background-color: #00000031;
     height: 120px;
-    border-radius: 5px;
 }
 
 .header__inner{
@@ -49,6 +48,8 @@ header{
 
 .header__links {
     font-weight: 900;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Russo One', sans-serif;
 }
 
 .header__worktime:before{
@@ -89,7 +90,6 @@ a[href^="tel:"]::after {
 .sub-header{
     background-color: rgba(102, 102, 102, 0.795);
     height: 40px;
-    border-radius: 5px;
 }
 
 .sub-header__inner{
@@ -116,7 +116,7 @@ main{
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
-    min-height: calc(100vh - 275px);
+    min-height: calc(100vh - 200px);
 }
 
 .left_col{
