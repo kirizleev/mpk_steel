@@ -1,6 +1,5 @@
-let getCost = document.getElementById('goods-button');
+let getCost = document.getElementById('get-cost-button');
 
-alrt = () => {
-    getCost.onclick.alert("Сайт в разработке");
-    console.log("it works!")
+getCost.onclick = function(){
+    alert('Обратитесь, пожалуйста, в раздел "Контакты". Сайт в данный момент находится в разработке.')
 }
