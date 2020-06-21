@@ -27,10 +27,10 @@ body{
 header{
     background-color: #00000031;
     height: 120px;
+    background-image: url(../img/header.jpg);
 }
 
 .header__inner{
-    background-image: url(../img/header.png);
     background-size: cover;
     box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
     height: 120px;
@@ -42,14 +42,16 @@ header{
 }
 
 .header__text{
-    FONT-WEIGHT: 300;
+    FONT-WEIGHT: 500;
     width: 20%;
+    color: white;
 }
 
 .header__links {
     font-weight: 900;
     font-family: 'Comfortaa', cursive;
     font-family: 'Russo One', sans-serif;
+    color: white;
 }
 
 .header__worktime:before{
@@ -64,9 +66,9 @@ header{
 }
 
 .header__worktime{
-    FONT-WEIGHT: 300;
+    FONT-WEIGHT: 500;
     margin-left: auto;
-    margin-right: 20px;
+    color: white;
 }
 
 .header__contacts{
